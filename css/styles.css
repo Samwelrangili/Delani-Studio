@@ -14,12 +14,10 @@ body{
 }
 #section2{
     text-align: center;
-    font-size: 25px;
 }
 #section3{
     background-image: url('../images/backgrounds/s_image.jpg');
     text-align: center;
-    font-size: 25px;
     color: white;
     background-size: cover;
 }
@@ -51,16 +49,13 @@ body{
 #message{
     background: none;
 }
-p{
-    font-size: 25px;
-}
 #footer{
     text-align: center;
 }
-#footer h1{
-    font-size: 25px;
-}
 #submit{
     text-align: center;
+}
+.samm{
+text-align: center;
 }
     
