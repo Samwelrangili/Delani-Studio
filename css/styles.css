@@ -21,6 +21,7 @@ body{
     text-align: center;
     color: white;
     background-size: cover;
+    display: none;
 }
 #section4{
     text-align: center;

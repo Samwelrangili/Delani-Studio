@@ -13,27 +13,27 @@ $(document).ready(function () {
     });
     $("#row1").hover(function () {
         $(".portfolio1").css({"opacity": "0.2", "transition": "2s"});
-        $("#text1").show();
+        $("#work1").show();
 
     }, function () {
         $(".portfolio1").css("opacity", "1");
-        $("#text1").show();
+        $("#work1").show();
     });
     $("#row2").hover(function () {
         $(".portfolio2").css({"opacity": "0.2", "transition": "2s"});
-        $("#text2").show();
+        $("#work2").show();
 
     }, function () {
         $(".portfolio2").css("opacity", "1");
-        $("#text2").show();
+        $("#work2").show();
     });
     $("#row3").hover(function () {
         $(".portfolio3").css({"opacity": "0.2", "transition": "2s"});
-        $("#text3").show();
+        $("#work3").show();
 
     }, function () {
         $(".portfolio3").css("opacity", "1");
-        $("#text3").show();
+        $("#work3").show();
     });
     $("#row4").hover(function () {
         $(".portfolio4").css({"opacity": "0.2", "transition": "2s"});
