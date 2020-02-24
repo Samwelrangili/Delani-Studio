@@ -48,4 +48,13 @@ body{
 .samm{
     text-align: center;
 }
+#name{
+    background: none;
+}
+#email{
+    background: none;
+}
+#message{
+    background: none;
+}
     
