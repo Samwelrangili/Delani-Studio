@@ -3,6 +3,7 @@
 }
 body{
     align-items: center;
+    background-size: auto;
 }
 #row{
     background-image: url("../images/backgrounds/h_img.jpg");
@@ -28,34 +29,22 @@ body{
 #section5{
     text-align: center;
 }
-.portfolio img{
+/* .portfolio img{
     margin: 10px;
     
 }
 .portfolio img:hover{
     color: green;
-}
+} */
 #section6{
     background-image: url("../images/backgrounds/c_image.jpg");
     text-align: center;
     color: transparent;
 }
-#name{
-    background: none;
-}
-#email{
-    background: none;
-}
-#message{
-    background: none;
-}
 #footer{
     text-align: center;
 }
-#submit{
-    text-align: center;
-}
 .samm{
-text-align: center;
+    text-align: center;
 }
     
