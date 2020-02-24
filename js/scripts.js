@@ -3,6 +3,7 @@ $(document).ready(function () {
         $(".design-icon").toggle();
         $(".design%p").toggle();
     });
+    $(document)
     $("#dev").click(function () {
         $(".dev-icon").toggle();
         $(".dev%p").toggle();
