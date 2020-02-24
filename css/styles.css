@@ -4,6 +4,7 @@
 body{
     align-items: center;
     background-size: auto;
+    font-size: 25px;
 }
 #row{
     background-image: url("../images/backgrounds/h_img.jpg");
