@@ -53,4 +53,29 @@ body{
     background: none;
     color: white;
 }
- 
+.portal{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 7%;
+}
+.explanation {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.explanation_show {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}

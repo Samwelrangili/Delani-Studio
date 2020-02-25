@@ -23,7 +23,7 @@ $(document).ready(function () {
         $(this).toggle();
         $("#icon3").show();
     })
-    $('.zero').hover(function () {
-        $('#ze').toggle();
-    });
 })
+$(".hover").portal(function(){
+    $(this).find("div").toggleClass("explanation_show");
+});
