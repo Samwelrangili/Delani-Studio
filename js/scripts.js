@@ -26,10 +26,4 @@ $(document).ready(function () {
     $('.zero').hover(function () {
         $('#ze').toggle();
     });
-    $("#ssss").mouseenter(function(){
-        $(".work1").show()
-    })
-    $(".#ssss").mouseleave(function(){
-        $(".work1").hide()
-    })
 })
