@@ -1,8 +1,13 @@
 ## Project Name
 Delani Studio
 
-## Authour
+## Author
 Samwel Rangili
+
+## Technologies used
+*HTML
+*CSS
+*Javascript
 
 ## Contacts
 * Email:samwelrangili896@gmail.com
@@ -12,6 +17,5 @@ Samwel Rangili
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages to Delani studio firm.
 
 ## Live link
-* Find a live link to my project;
-* 
-
+* Here is a live link to my project;
+* https://samwelrangili.github.io/Delani-Studio/
