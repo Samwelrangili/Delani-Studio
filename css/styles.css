@@ -53,7 +53,9 @@ body{
     background: none;
     color: white;
 }
-
+.samm, h1{
+    font-size: 25px;
+}
 
 
 .portal{
