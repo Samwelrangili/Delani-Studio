@@ -33,7 +33,7 @@ body{
 .work1{
     display: none;
 }
-#section6{
+#contact{
     background-image: url("../images/backgrounds/c_image.jpg");
     text-align: center;
 }
@@ -61,7 +61,7 @@ body{
     overflow: hidden;
     margin-bottom: 7%;
 }
-.tt {
+.comptech{
     display: none;
     position: absolute;
     opacity: 1.5;
@@ -74,7 +74,7 @@ body{
     transform:this translate(-50%, -50%);
     text-align: center;
 }
-.tt{
+.comptech{
     /* visibility: visible; */
     opacity: 1.5;
     background-color:white;
