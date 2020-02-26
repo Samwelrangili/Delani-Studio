@@ -49,7 +49,7 @@ body{
 #email{
     background: none;
 }
-#message{
+#text{
     background: none;
     color: white;
 }
@@ -85,4 +85,7 @@ body{
 #port{
     text-align: center;
     font-weight: 700px;
+}
+.monk{
+    color: white;
 }

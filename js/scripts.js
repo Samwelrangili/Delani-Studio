@@ -80,29 +80,28 @@ $("#macus1").hover(
 );
 });
 
-function submit() {
+function submission() {
 
-    var name = document.getElementById("your-name").value;
-    var email = document.getElementById("your-email").value;
-    var text = document.getElementById("your-text").value;
-    var key="daef0317ab6011353ff9c48d377b1366-us4"
-
-    if (name === "") {
-        alert("Please fill in your name");
-        return false;
-
-    } else if (email === "") {
-        alert("Please insert your email!");
-        return false;
-
-    } else if (text === "") {
-
-        alert("There is no text to submit!");
-    } else {
-
-        alert("We have recieved your message dear " + name + " and we will get back to you");
-
-
-    };
-}
-
+                    var name = document.getElementById("name").value;
+                    var email = document.getElementById("email").value;
+                    var text = document.getElementById("text").value;
+                    var key="daef0317ab6011353ff9c48d377b1366-us4"
+                
+                    if (name === "") {
+                        alert("Please fill in your name");
+                        return false;
+                
+                    } else if (email === "") {
+                        alert("Please insert your email!");
+                        return false;
+                
+                    } else if (text === "") {
+                
+                        alert("There is no text to submit!");
+                    } else {
+                
+                        alert("We have recieved your message " + name + ".we'll get back to you in the next couple of time.");
+                
+                
+                    };
+                }

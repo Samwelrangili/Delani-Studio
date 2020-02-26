@@ -142,18 +142,22 @@
     <br>
 
     <div id="contact">
-        <h2>CONTACT US</h2>
-        <form >
+        <h2 class="monk">CONTACT US</h2>
+        <form action="">
           <div class="row">
-            <div class="col-md-6"><input type="text" class="form-control" id="name" placeholder="Name"></div>
-            <div class="col-md-6"><input type="email" class="form-control" id="email" placeholder="Email"></div>
-          </div> <br>
+            <div class="col-md-6"><input type="text" class="form-control" id="name" name="your-name" placeholder="Name"><br></div>
+            <div class="col-md-6"><input type="email" class="form-control" id="email" name="your-email" placeholder="Email"></div>
+          </div> 
+          <br>
           <div class="row">
-            <div class="col-md-12"><textarea name="sam" id="message" cols="100" rows="10" placeholder="Type your message here"></textarea></div>
-            <div class="col-md-12"><button type="submit" class="button" onclick="submit()">Submit</button><br></div>
+            <div class="col-md-12"><textarea name="sam" id="text" cols="100" rows="10" placeholder="Write your message here"></textarea></div>
+            <div class="col-md-12"><button type="submit" class="button" onclick="submission()">Submit</button>
+                <br>
+            </div>
           </div>
         </form>
-    </div><br>
+    </div>
+    <br>
     <div class="footer" id="footer">
         <a href="https://www.behance.net/"><img src="./images/social_icons/behance.png" width="50px" height="50px"></a>
         <a href="https://dribbble.com/signup/new"><img src="./images/social_icons/dribble.png" width="50px"
