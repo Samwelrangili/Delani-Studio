@@ -1,6 +1,6 @@
 *{
     overflow-x: hidden;
-}
+}*
 body{
     align-items: center;
     background-size: auto;
@@ -22,7 +22,6 @@ body{
     text-align: center;
     color: white;
     background-size: cover;
-    display: none;
 }
 #section4{
     text-align: center;
@@ -31,17 +30,12 @@ body{
 #section5{
     text-align: center;
 }
-/* .portfolio img{
-    margin: 10px;
-    
+.work1{
+    display: none;
 }
-.portfolio img:hover{
-    color: green;
-} */
 #section6{
     background-image: url("../images/backgrounds/c_image.jpg");
     text-align: center;
-    color: transparent;
 }
 #footer{
     text-align: center;
@@ -57,5 +51,38 @@ body{
 }
 #message{
     background: none;
+    color: white;
 }
-    
+
+
+
+.portal{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 7%;
+}
+.tt {
+    display: none;
+    position: absolute;
+    opacity: 1.5;
+    color: black;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform:this translate(-50%, -50%);
+    text-align: center;
+}
+.tt{
+    /* visibility: visible; */
+    opacity: 1.5;
+    background-color:white;
+}
+.design, .dev, .product{
+    display: none;
+}
+#port{
+    text-align: center;
+    font-weight: 700px;
+}
