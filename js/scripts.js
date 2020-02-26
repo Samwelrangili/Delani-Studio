@@ -1,3 +1,4 @@
+// toggle
 $(document).ready(function () {
     $("#design").click(function () {
         $(".design-icon").toggle();
@@ -80,7 +81,8 @@ $("#macus1").hover(
 );
 });
 
-function submission() {
+
+function submitdetails() {
 
                     var name = document.getElementById("name").value;
                     var email = document.getElementById("email").value;
@@ -88,16 +90,16 @@ function submission() {
                     var key="daef0317ab6011353ff9c48d377b1366-us4"
                 
                     if (name === "") {
-                        alert("Please fill in your name");
+                        alert("Inserted your name");
                         return false;
                 
                     } else if (email === "") {
-                        alert("Please insert your email!");
+                        alert("Insert your email!");
                         return false;
                 
                     } else if (text === "") {
                 
-                        alert("There is no text to submit!");
+                        alert("Please fill this field");
                     } else {
                 
                         alert("We have recieved your message " + name + ".we'll get back to you in the next couple of time.");
