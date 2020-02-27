@@ -4,7 +4,7 @@ Delani Studio
 ## Author
 Samwel Rangili
 
-## Technologies used
+## Technologies Used
 *HTML
 *CSS
 *Javascript
