@@ -110,4 +110,4 @@ function submitdetails() {
     $(".portal").portal(function(){
         $(this).find(".explanation").hover("explanation_show");
     });
-});
+

@@ -34,7 +34,6 @@ body{
     display: none;
 }
 #contact{
-#section6{
     background-image: url("../images/backgrounds/c_image.jpg");
     text-align: center;
 }
@@ -90,7 +89,7 @@ body{
 .monk{
     color: white;
 }
-}
+
 .explanation {
     position: absolute;
     opacity: 0;
